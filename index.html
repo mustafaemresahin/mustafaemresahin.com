@@ -226,13 +226,25 @@
       </article>
       <article class="resume" data-page="resume">   
         <header>
-          <h2 class="h2 article-title">Resume</h2>
-          <form action="https://mustafaemresahin.com/documents/resume.pdf" target="_blank" method="post">
-                <button class="form-btn" type="submit" action="sendmail.php">
-                    <ion-icon name="arrow-down-circle" style="height:20px; width:20px;"></ion-icon>
-                    Download Resume</button>
-            </form>
-        </header>
+            <h2 class="h2 article-title">Resume</h2>
+            <!-- Download Button -->
+            <div style="text-align: center;">
+              <a href="https://mustafaemresahin.com/documents/resume.pdf" download style="display: inline-block;">
+              <button class="form-btn">
+                <ion-icon name="arrow-down-circle" style="height:20px; width:20px;"></ion-icon>
+                Download Resume
+              </button>
+            </a>
+            <!-- View Button -->
+            <a href="https://mustafaemresahin.com/documents/resume.pdf" target="_blank" style="display: inline-block;">
+              <button class="form-btn">
+                <ion-icon name="eye-outline" style="height:20px; width:20px;"></ion-icon>
+                View Resume
+              </button>
+            </a>
+            </div>
+      </header>
+
         <div style="padding-bottom:10px;"></div>
         <section class="timeline">
           <div class="title-wrapper">
